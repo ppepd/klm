@@ -1,0 +1,55 @@
+site_name: Spesifikasi IG Kesatuan Lanskap Mangrove
+username: zadidibnu
+site_description: Dokumentasi teknis spesifikasi informasi geospasial untuk KLM
+site_author: Direktorat PPEPD, Kementerian Lingkungan Hidup / Badan Perlindungan Lingkungan Hidup RI
+repo_url: https://github.com/username/spesifikasi-klm
+theme:
+  name: material
+  logo: assets/logo.png
+  language: id
+  features:
+    - navigation.top
+    - content.code.annotate
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Beranda: index.md
+  - Pendahuluan:
+      - Latar Belakang: pendahuluan/latar-belakang.md
+      - Maksud dan Tujuan: pendahuluan/maksud-tujuan.md
+      - Ruang Lingkup: pendahuluan/ruang-lingkup.md
+      - Dasar Hukum: pendahuluan/dasar-hukum.md
+  - Terminologi: istilah-definisi.md
+  - Spesifikasi Produk:
+      - Struktur & Isi Data: spesifikasi/struktur-data.md
+      - Sistem Referensi: spesifikasi/sistem-referensi.md
+      - Metadata: spesifikasi/metadata.md
+      - Format & Pengiriman Data: spesifikasi/pengiriman.md
+      - Pemeliharaan Data: spesifikasi/pemeliharaan.md
+      - Portrayal (Simbolisasi): spesifikasi/portrayal.md
+  - Kualitas Data:
+      - Kelengkapan Data: kualitas/kelengkapan.md
+      - Konsistensi Logis: kualitas/logis.md
+      - Akurasi Tematik: kualitas/tematik.md
+      - Batasan Pemanfaatan: kualitas/batasan.md
+  - Identifikasi Produk Data: produk-data.md
+  - Use Cases:
+      - Carbon: carbon.md
+  - Lampiran: lampiran.md
+
+plugins:
+  - search
+  - mkdocstrings
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - def_list
+extra_css:
+  - assets/custom.css
