@@ -54,3 +54,5 @@ Didukung oleh kerja sama teknis lintas kementerian dan lembaga dalam rangka perc
 Dokumentasi ini didistribusikan dengan lisensi **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Anda bebas menggunakan, menyalin, dan menyebarluaskan isi dokumen ini dengan menyertakan atribusi yang sesuai.
 
 ---
+
+version 27.05.2025
