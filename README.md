@@ -19,3 +19,5 @@ Tingkat ketergantungan masyarakat dan intervensi lahan
 Data ini dikompilasi ke dalam basis data spasial terstruktur, disertai metadata yang mengacu pada standar SNI ISO 19131. Produk utamanya adalah peta digital KLM definitif, format shapefile atau geodatabase, yang dapat diakses dan dianalisis oleh pemangku kepentingan lintas sektorSpesifikasi_IG_KLM_repa…. Peta-peta ini menjadi dasar untuk integrasi dalam sistem tata ruang, sistem perizinan, serta sistem pemantauan dan evaluasi nasional.
 
 Dalam sistem informasi geospasial nasional, KLM termasuk dalam kategori Informasi Geospasial Tematik (IGT) dan wajib memenuhi prinsip interoperabilitas, keterbukaan data, serta keakuratan spasial. Hal ini sesuai dengan kebijakan Satu Peta dan Satu Data Indonesia yang mendorong keselarasan data antar sektor
+
+#version 1
